@@ -7,7 +7,7 @@ metadata:
     app: synergychat-api
 
 spec:
-  replicas: 0
+  replicas: 1
   selector:
     matchLabels:
       app: synergychat-api
